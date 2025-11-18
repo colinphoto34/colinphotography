@@ -1,1 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Colin Photography | 夜景・光雕・城市紀實</title>
+  <meta name="description" content="Colin 郁奇｜台灣攝影師。擅長夜景、光雕、煙火、城市紀實與生活影像。">
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Noto Sans TC", sans-serif;
+      background: #0a0a0c;
+      color: #f0f0f0;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 32px;
+      background: #0f0f12;
+      position: sticky;
+      top: 0;
+    }
+    .logo {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+    }
+    nav a {
+      margin-left: 20px;
+      color: #bbb;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    nav a:hover { color: #fff; }
 
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 60px 32px;
+      gap: 32px;
+    }
+    .hero h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+    .hero p {
+      margin-top: 12px;
+      color: #bdbdbd;
+      line-height: 1.6;
+    }
+    .hero img {
+      width: 100%;
+      border-radius: 18px;
+      border: 1px solid #222;
+    }
+
+    .section {
+      padding: 40px 32px;
+    }
+    .section h2 {
+      font-size: 18px;
+      letter-spacing: 0.1em;
+      color: #c4c4c4;
+      margin-bottom: 20px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    .work-card img {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid #222;
+    }
+    .work-card .title {
+      margin-top: 8px;
+      font-size: 14px;
+    }
+    .work-card .meta {
+      font-size: 12px;
+      color: #999;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      color: #777;
+      border-top: 1px solid #222;
+      margin-top: 40px;
+      font-size: 12px;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<header>
+  <div class="logo">COLIN PHOTOGRAPHY</div>
+  <nav>
+    <a href="#works">作品</a>
+    <a href="#about">關於我</a>
+    <a href="#contact">聯絡方式</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>Nightscape ・ Light Projection ・ City Life</h1>
+    <p>
+      Colin 郁奇｜台灣攝影師。以設計視角捕捉夜色與城市瞬間，擅長光雕、夜景、煙火與生活紀實。
+    </p>
+  </div>
+
+  <img src="https://via.placeholder.com/800x500?text=Your+Hero+Photo" alt="hero image">
+</section>
+
+<section id="works" class="section">
+  <h2>LATEST WORKS</h2>
+  <div class="grid-3">
+    <div class="work-card">
+      <img src="https://via.placeholder.com/400x300?text=Lightshow" alt="">
+      <div class="title">光雕主燈</div>
+      <div class="meta">2025 New Taipei Christmasland</div>
+    </div>
+    <div class="work-card">
+      <img src="https://via.placeholder.com/400x300?text=Nightscape" alt="">
+      <div class="title">101 夜景藍調</div>
+      <div class="meta">Taipei Cityscape</div>
+    </div>
+    <div class="work-card">
+      <img src="https://via.placeholder.com/400x300?text=Fireworks" alt="">
+      <div class="title">跨年煙火</div>
+      <div class="meta">Long Exposure</div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <h2>ABOUT COLIN</h2>
+  <p>
+    Colin（郁奇）來自台灣，現居新北。白天是室內設計師，夜晚則用相機記錄城市氛圍。
+    擅長夜景、光雕投影、煙火、街頭紀實以及空間攝影。
+  </p>
+</section>
+
+<section id="contact" class="section">
+  <h2>CONTACT</h2>
+  <p>📩 Email：colin.photo34@gmail.com</p>
+  <p>📱 Mobile：0913-790-304</p>
+  <p>📷 IG：@colin.photo34</p>
+</section>
+
+<footer>
+  © 2025 Colin Photography. All rights reserved.
+</footer>
+</body>
+</html>
